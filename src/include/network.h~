@@ -1,0 +1,71 @@
+/* 
+ * File:   network.h
+ * Author: yorgos
+ *
+ * Created on May 12, 2012, 1:08 PM
+ */
+
+#ifndef _NETWORK_H
+#define _NETWORK_H
+
+//#include <map>
+#include "net_types.h"
+#include "network.h"
+#include "domain.h"
+#include "grid.h"
+
+namespace NetworkNS {
+   
+   class cNetwMin{
+   public:
+      class cNetwork *network;
+      class cDomain  *domain;
+      class cGrid *grid;
+      // void write_lammps_file();
+   };
+   
+   
+   class cNetwork {
+   public:
+      cNetwork(std::string);
+      virtual ~cNetwork();
+      
+      void write_network_to_lammps_data_file();
+      
+      std::list <tNode> nodes;
+      std::list <tSubCh> subchains;
+      std::list <tStrand> strands;
+      std::vector<std:: list<tStrand *> > sorted_chains;
+   };
+
+   extern cNetwMin netw_min;
+   const int    Ncrosslinks=0;                      // <=nodal_points and >Nendpoints if the first rule is taken into account
+   //const int    Ncrosslinks=6706;
+   const int    Nsliplinks=6713;                     // determined by the difference: Nnodal_points-Ncrosslinks-Nendpoints
+   //const int    Nsliplinks=7;
+   const int    NorChains=1500;                      // Number of original chains in the polymer network   
+   const double temp = 500.0;                        // in Kelvin 
+   const double gas_constant=8.3144621e-03;          // gas constant in [kJ/mol/K] 
+   const double Nav=6.022e23;                        // Avogadro number [1/mol]
+   const double RT=temp*gas_constant;                // gas constant multiplied by the temperature (temp) in [kJ/mol]
+   const double kuhnl = 9.0;                        // Kuhn length of polyisoprene 
+   const double mon_per_kuhn=5.0;                    // monomers per Kuhn segment in Angstrom
+   const double mass_monomer=68.12;                  // mass of the monomer in gr/mol
+   const double mass_kuhn=mon_per_kuhn*mass_monomer; // mass of the Kuhn segment in gr/mol   
+   const double scale_delta=0.01;                    // percentage of Rnode, used for the computation of delta
+   const double control_node=0.10;
+   const double tol=1.0e-03;                         // tolerance used for comparisons between real numbers in if statements
+   const double c1=-5.4e02;                           // constant in the free energy functional: f[ρ]=c1ρ+c2ρ^2, units:   
+ //  const double c1=0.0;
+                                                     // 
+   const double c2=7.0e04;                           // constant in the free energy functional: f[ρ]=c1ρ+c2ρ^2, units:
+                                                     //Q
+ // const double c2=0.0;
+   const double factor1=1.0;           
+   //const double factor2=1.0;
+   const double factor2=1.0;
+   
+}  
+
+#endif	/* NETWORK_H */
+

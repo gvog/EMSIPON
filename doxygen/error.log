@@ -1,0 +1,54 @@
+/home/gvog/NetBeansProjects/emsipon_git/src/b3D_integrator.cpp:8: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/distributions.cpp:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/domain.cpp:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/dump.cpp:8: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/grid.cpp:8: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/main.cpp:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/netmin.cpp:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/network.cpp:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/non_bonded_scheme_routines.cpp:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/rng.cpp:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/Auxiliary.h:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/b3D_integrator.h:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/constants.h:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/distributions.h:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/domain.h:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/dump.h:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/grid.h:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/net_types.h:6: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/netmin.h:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/network.h:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:7: warning: multiple use of section label 'LICENSE' while adding section, (first occurrence: /home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp, line 6)
+/home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp:35: warning: Member create_dir(string name_of_dir) (function) of file Auxiliary.cpp is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp:42: warning: Member get_wall_time() (function) of file Auxiliary.cpp is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/Auxiliary.cpp:51: warning: Member get_cpu_time() (function) of file Auxiliary.cpp is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/Auxiliary.h:29: warning: Member get_wall_time() (function) of file Auxiliary.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/Auxiliary.h:30: warning: Member get_cpu_time() (function) of file Auxiliary.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/Auxiliary.h:33: warning: Member StringToNumber(const string &Text) (function) of file Auxiliary.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/Auxiliary.h:41: warning: Member NumberToString(T Number) (function) of file Auxiliary.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/Auxiliary.h:49: warning: Member create_dir(string name_of_dir) (function) of file Auxiliary.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/constants.h:56: warning: Member hopping_attempt_radius (variable) of file constants.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/non_bonded_scheme_routines.cpp:18: warning: Member phi_function(double x, double xj, double Rj, double delta, double &phi_value) (function) of file non_bonded_scheme_routines.cpp is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/non_bonded_scheme_routines.cpp:45: warning: Member integral_minus_infinity_to_x(double xasterisk, double xj, double Rj, double delta, double &integral_value) (function) of file non_bonded_scheme_routines.cpp is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/non_bonded_scheme_routines.cpp:71: warning: Member integral_x_to_plus_infinity(double xasterisk, double xj, double Rj, double delta, double &integral_value) (function) of file non_bonded_scheme_routines.cpp is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/non_bonded_scheme_routines.h:10: warning: Member phi_function(double x, double xj, double Rj, double delta, double &phi_value) (function) of file non_bonded_scheme_routines.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/non_bonded_scheme_routines.h:11: warning: Member integral_minus_infinity_to_x(double xasterisk, double xj, double Rj, double delta, double &integral_value) (function) of file non_bonded_scheme_routines.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/non_bonded_scheme_routines.h:12: warning: Member integral_x_to_plus_infinity(double xasterisk, double xj, double Rj, double delta, double &integral_value) (function) of file non_bonded_scheme_routines.h is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/rng.cpp:26: warning: Member PHI (macro definition) of file rng.cpp is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/b3D_integrator.h:137: warning: Member cell_density_nodal_points(void) (function) of class NetworkNS::cb3D_integrator is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/b3D_integrator.h:133: warning: Member p_cell_density (variable) of class NetworkNS::cb3D_integrator is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/b3D_integrator.h:40: warning: The following parameters of NetworkNS::cb3D_integrator::cb3D_integrator(class NetwMin *init_net, double temperature, double slipspring_rate) are not documented:
+  parameter 'slipspring_rate'
+/home/gvog/NetBeansProjects/emsipon_git/src/include/hopping.h:44: warning: Member nu_hopping_times_exp_of_barrier (variable) of class NetworkNS::Hopping is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:41: warning: Member rand_gauss(void) (function) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:43: warning: Member devrand() (function) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:45: warning: Member uint_rand() (function) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:49: warning: Member save (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:50: warning: Member second (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:51: warning: Member u (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:52: warning: Member i97 (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:52: warning: Member j97 (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:54: warning: Member x (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:55: warning: Member y (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:56: warning: Member z (variable) of class NetworkNS::RanMars is not documented.
+/home/gvog/NetBeansProjects/emsipon_git/src/include/rng.h:57: warning: Member c (variable) of class NetworkNS::RanMars is not documented.
